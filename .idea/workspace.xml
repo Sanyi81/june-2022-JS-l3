@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="859a4418-a5fc-4527-baec-b9e193994711" name="Changes" comment="add changes">
-      <change afterPath="$PROJECT_DIR$/lesson3/resolve3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/resolve3/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="859a4418-a5fc-4527-baec-b9e193994711" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson4/resolve4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/resolve4/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +52,11 @@
     &quot;last_opened_file_path&quot;: &quot;/Volumes/Macintosh/OktenWeb/june-2022-JS&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson4/resolve4" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +71,9 @@
       <workItem from="1658870018651" duration="740000" />
       <workItem from="1659030413045" duration="159000" />
       <workItem from="1659035551690" duration="4193000" />
-      <workItem from="1659190508120" duration="4667000" />
+      <workItem from="1659190508120" duration="5188000" />
+      <workItem from="1659293613532" duration="245000" />
+      <workItem from="1659463943003" duration="6639000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1658870373218</created>
@@ -76,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658870373218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add changes">
+      <created>1659209221470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659209221470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
