@@ -76,7 +76,7 @@
 // arrPrint(array)
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
-//      ?
+
 // let users = [
 //     {id: 1, name: 'vasya', age: 31},
 //     {id: 2, name: 'petya', age: 30},
@@ -87,11 +87,10 @@
 // ];
 // function usersPrint (array) {
 //     for (i = 0; i < users.length; i++) {
-//     document.write(`<div>${array[i]}</div>`)
+//     document.write(`<div>${array[i].id} ${array[i].name} ${array[i].age}</div>`)
 //     }
 // }
 // usersPrint(users)
-//      ?
 
 // - створити функцію яка повертає найменьше число з масиву
 
