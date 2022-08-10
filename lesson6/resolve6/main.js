@@ -95,6 +95,7 @@
 // console.log(sortMDDown);
 // let courseLength = courses.filter(course => course.monthDuration > 5);
 // console.log(courseLength);
+
 //---------------------------------------------------
 // описати колоду карт
 // {
@@ -183,15 +184,22 @@ console.log(clubsCard);
 // //     clubs:[]
 // // }
 let reduce = cards.reduce(function (accumulator,card) {
-    if (card.cardSuit === 'spade')
-        accumulator.statusSpades.push(card);
-     else if (card.cardSuit === 'diamond')
-            accumulator.statusDiamonds.push(card);
-     else if (card.cardSuit === 'heart')
-                accumulator.statusHearts.push(card);
-         else if (card.cardSuit === 'clubs')
-        accumulator.statusClubs.push(card);
-         else accumulator.other.push(card);
+    if (card.cardSuit === 'spade') {
+        accumulator.statusSpades.push(card)
+    }
+     else if (card.cardSuit === 'diamond') {
+         accumulator.statusDiamonds.push(card)
+     }
+     else if (card.cardSuit === 'heart') {
+        accumulator.statusHearts.push(card)
+    }
+         else if (card.cardSuit === 'clubs') {
+        accumulator.statusClubs.push(card)
+    }
+         else
+        {
+            accumulator.other.push(card)
+        }
     return accumulator;
 }, {statusSpades:[], statusDiamonds:[], statusHearts:[], statusClubs:[], other:[]});
 console.log(reduce);
