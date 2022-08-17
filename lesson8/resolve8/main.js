@@ -185,8 +185,8 @@
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 
 // for (const pretty of cinderellas) {
-//     if (cinderellas.footSize === prince.bootSize) {
-//         console.log(`${pretty.name}`);
+//     if (pretty.footSize === prince.bootSize) {
+//         console.log(`${prince.name} looked for ${pretty.name}`);
 //     }
 // }
 
