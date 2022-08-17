@@ -88,12 +88,10 @@
 //         console.log(`producer - ${this.producer}`)
 //         console.log(`graduationYear - ${this.graduationYear}`)
 //         console.log(`maxSpeed - ${this.maxSpeed}`)
-//         console.log(`engineV - ${this.engineV}`)
-//         this.increaseMaxSpeed = newSpeed => {this.maxSpeed = newSpeed};
-//         this.changeYear = newValue => {this.graduationYear = newValue};
-//         this.addDriver = driver => {this.driver = driver};
-//     }
-//
+//         console.log(`engineV - ${this.engineV}`)}
+//     this.increaseMaxSpeed = newSpeed => {this.maxSpeed = newSpeed};
+//     this.changeYear = newValue => {this.graduationYear = newValue};
+//     this.addDriver = driver => {this.driver = driver};
 // }
 // let car = new Car('Stepway', 'Renault', '2017', '190','0,9' );
 //     console.log(car);
@@ -130,11 +128,11 @@
 //             console.log(`producer - ${this.producer}`)
 //             console.log(`graduationYear - ${this.graduationYear}`)
 //             console.log(`maxSpeed - ${this.maxSpeed}`)
-//             console.log(`engineV - ${this.engineV}`)
+//             console.log(`engineV - ${this.engineV}`)}
 //         this.increaseMaxSpeed = newSpeed => {this.maxSpeed = newSpeed};
 //         this.changeYear = newValue => {this.graduationYear = newValue};
 //         this.addDriver = driver => {this.driver = driver};
-//         }
+//
 //     }
 //     greeting () {
 //         console.log(`Їдемо зі швидкістю ${this.maxSpeed} на годину`)
@@ -142,8 +140,8 @@
 // }
 // let car = new Car('Stepway', 'Renault', '2017', '190','0,9');
 // console.log(car);
-// car.greeting();
 //
+// car.drive();
 // car.info();
 // car.increaseMaxSpeed(195);
 // car.changeYear(2019);
@@ -154,45 +152,47 @@
 
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 
-class Cinderella {
-    constructor(name, age, footSize) {
-    this.name = name;
-    this.age = age;
-    this.footSize = footSize
-    }
-}
-let cinderellas = [
-    new Cinderella('Anna', 19, 36),
-    new Cinderella('Ilona', 22, 37),
-    new Cinderella('Ivett', 21, 38),
-    new Cinderella('Sarah', 22, 36),
-    new Cinderella('Kate', 25, 37),
-    new Cinderella('Maria', 18, 39),
-    new Cinderella('Oksana', 23, 36),
-    new Cinderella('Olena', 24, 37),
-    new Cinderella('Eva', 26, 38),
-    new Cinderella('Adriana', 17, 35),
-];
-console.log(cinderellas)
+// class Cinderella {
+//     constructor(name, age, footSize) {
+//     this.name = name;
+//     this.age = age;
+//     this.footSize = footSize
+//     }
+// }
+// let cinderellas = [
+//     new Cinderella('Anna', 19, 36),
+//     new Cinderella('Ilona', 22, 37),
+//     new Cinderella('Ivett', 21, 38),
+//     new Cinderella('Sarah', 22, 36),
+//     new Cinderella('Kate', 25, 37),
+//     new Cinderella('Maria', 18, 39),
+//     new Cinderella('Oksana', 23, 36),
+//     new Cinderella('Olena', 24, 37),
+//     new Cinderella('Eva', 26, 38),
+//     new Cinderella('Adriana', 17, 35),
+// ];
+// console.log(cinderellas);
+
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
-class Prince {
-    constructor(name, age, bootSize) {
-        this.name = name;
-        this.age = age;
-        this.bootSize = bootSize;
-    }
-}
-let prince = new Prince('Shrek', 30, 35) ;
-console.log(prince);
+
+// class Prince {
+//     constructor(name, age, bootSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.bootSize = bootSize;
+//     }
+// }
+// let prince = new Prince('Shrek', 30, 35) ;
+// console.log(prince);
 
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 
-for (const pretty of cinderellas) {
-    if (cinderellas.footSize === prince.bootSize) {
-        console.log(`${pretty.name}`);
-    }
-}
+// for (const pretty of cinderellas) {
+//     if (cinderellas.footSize === prince.bootSize) {
+//         console.log(`${pretty.name}`);
+//     }
+// }
 
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-console.log(cinderellas.find(({footSize}) => footSize === prince.bootSize));
+// console.log(cinderellas.find(({footSize}) => footSize === prince.bootSize));

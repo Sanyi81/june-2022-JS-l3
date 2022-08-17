@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859a4418-a5fc-4527-baec-b9e193994711" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson8/resolve8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/resolve8/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/resolve8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/resolve8/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,8 @@
       <workItem from="1660077634125" duration="670000" />
       <workItem from="1660128731801" duration="14373000" />
       <workItem from="1660711531195" duration="9698000" />
-      <workItem from="1660724561005" duration="6416000" />
+      <workItem from="1660724561005" duration="6707000" />
+      <workItem from="1660743796326" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1658870373218</created>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660151146049</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add resolve8">
+      <created>1660732237289</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660732237289</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +171,7 @@
     <MESSAGE value="add resolve4" />
     <MESSAGE value="add resolve5" />
     <MESSAGE value="add resolve6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add resolve6" />
+    <MESSAGE value="add resolve8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add resolve8" />
   </component>
 </project>
