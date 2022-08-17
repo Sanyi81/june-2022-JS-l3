@@ -134,9 +134,6 @@
 //         this.addDriver = driver => {this.driver = driver};
 //
 //     }
-//     greeting () {
-//         console.log(`Їдемо зі швидкістю ${this.maxSpeed} на годину`)
-//     }
 // }
 // let car = new Car('Stepway', 'Renault', '2017', '190','0,9');
 // console.log(car);
