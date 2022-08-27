@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859a4418-a5fc-4527-baec-b9e193994711" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson8/resolve8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/resolve8/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/user-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/resolve9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/resolve9/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/resolve9/template1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +91,11 @@
       <workItem from="1660128731801" duration="14373000" />
       <workItem from="1660711531195" duration="9698000" />
       <workItem from="1660724561005" duration="6707000" />
-      <workItem from="1660743796326" duration="1638000" />
+      <workItem from="1660743796326" duration="2007000" />
+      <workItem from="1660998368085" duration="16376000" />
+      <workItem from="1661107495751" duration="4561000" />
+      <workItem from="1661519305040" duration="17425000" />
+      <workItem from="1661618165975" duration="8987000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1658870373218</created>
@@ -161,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660745280987</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add resolve8">
+      <created>1660746181243</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660746181243</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
