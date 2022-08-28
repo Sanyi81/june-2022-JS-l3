@@ -1,0 +1,22 @@
+body {
+    background: beige;
+}
+
+.posts {
+    width: 600px;
+    background: aquamarine;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.userPost {
+    font-size: 15px;
+    color: blue;
+}
+.postBtn {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: crimson;
+}

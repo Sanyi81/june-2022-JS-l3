@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859a4418-a5fc-4527-baec-b9e193994711" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/resolve9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/resolve9/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/resolve9/template1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/resolve10/user-details.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/resolve10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/resolve10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/resolve10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/resolve10/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/resolve10/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/resolve10/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/resolve10/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/resolve10/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/resolve10/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/resolve10/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/resolve10/user-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/resolve10/user-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -50,15 +54,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Macintosh/OktenWeb/june-2022-JS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Volumes/Macintosh/OktenWeb/june-2022-JS",
+    "list.type.of.created.stylesheet": "CSS"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson4/resolve4" />
@@ -96,6 +101,7 @@
       <workItem from="1661107495751" duration="4561000" />
       <workItem from="1661519305040" duration="17425000" />
       <workItem from="1661618165975" duration="8987000" />
+      <workItem from="1661633285135" duration="23135000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1658870373218</created>
@@ -181,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660746181243</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add resolve10">
+      <created>1661633362479</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661633362479</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +218,7 @@
     <MESSAGE value="add resolve5" />
     <MESSAGE value="add resolve6" />
     <MESSAGE value="add resolve8" />
-    <option name="LAST_COMMIT_MESSAGE" value="add resolve8" />
+    <MESSAGE value="add resolve10" />
+    <option name="LAST_COMMIT_MESSAGE" value="add resolve10" />
   </component>
 </project>

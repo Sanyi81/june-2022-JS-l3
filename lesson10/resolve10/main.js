@@ -4,24 +4,29 @@
 // 3 Додати кожному блоку кнопку/посилання , при кліку на яку відбувається перехід  на сторінку user-details.html,
 // котра має детальну інфорацію про об'єкт на який клікнули
 
+let usersBlock = document.getElementsByClassName('users')[0];
+
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
-    .then(users => {
-        for (const user of users) {
-    let div = document.createElement('div');
-    div.innerText = `${user.id} ${user.name}`;
+    .then(users => users.forEach(user => {
 
-    let userDetailsBtn = document.createElement('button');
-    div.appendChild(userDetailsBtn);
+        let div = document.createElement('div');
+        div.classList.add('user');
+        div.innerText = `${user.id} / ${user.name}`;
+        usersBlock.appendChild(div);
+
+        document.body.appendChild(usersBlock);
+
+        let userDetailsBtn = document.createElement('button');
+        div.appendChild(userDetailsBtn);
+        userDetailsBtn.classList.add('button')
         let a = document.createElement('a');
-        a.href = `user-details.html?$id=${user.id}`;
-        a.innerText = ' Look for details ';
+        a.href = `./user-details.html?id=${user.id}`;
+        a.innerText = ' Look for details';
         userDetailsBtn.appendChild(a);
-
-            document.body.appendChild(div);
-
-}
-    });
+    }
+    )
+    );
 
 
 // На странице user-details.html:

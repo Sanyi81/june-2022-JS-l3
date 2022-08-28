@@ -6,14 +6,17 @@
 // котра має детальну інфу про поточний пост.
 
 let url = new URL(location.href);
+console.log(location.href);
 let id = url.searchParams.get('id');
+console.log(id);
 
-fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
+
+fetch(`https://jsonplaceholder.typicode.com/users`)
     .then(response => response.json())
-    .then(users => {
-            for (const user of users) {
+    .then(users => users.forEach(user => {
 
         let div = document.createElement('div');
+        div.classList.add('user_info')
 
         let userId = document.createElement('p');
         userId.innerText = `id: ${user.id}`;
@@ -33,6 +36,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
 
         let userAddress = document.createElement('divAddress');
         userAddress.innerText = `address:`
+            div.appendChild(userAddress);
 
                 let addressStreet = document.createElement('p');
                 addressStreet.innerText = `street: ${user.address.street}`;
@@ -51,7 +55,8 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                 div.appendChild(addressZipcode);
 
                 let addressGeo = document.createElement('divGeo');
-                addressGeo.innerText = `geo:`
+                addressGeo.innerText = `geo:`;
+                div.appendChild(addressGeo)
 
                         let geoLat = document.createElement('p');
                         geoLat.innerText = `lat: ${user.address.geo.lat}`;
@@ -66,11 +71,12 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         div.appendChild(userPhone);
 
         let userWebsite = document.createElement('p');
-        userWebsite.innerText = `${user.website}`;
+        userWebsite.innerText = `website: ${user.website}`;
         div.appendChild(userWebsite);
 
         let company = document.createElement('divCompany');
         company.innerText = `company:`;
+        div.appendChild(company)
 
                 let companyName = document.createElement('p');
                 companyName.innerText = `name: ${user.company.name}`;
@@ -86,12 +92,15 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
 
         document.body.appendChild(div);
 
+
                     let userPostsBtn = document.createElement('button');
                     div.appendChild(userPostsBtn);
+                    userPostsBtn.classList.add('post_btn');
                     let a = document.createElement('a');
-                    a.href = `https://jsonplaceholder.typicode.com/posts/${id}`
-                    a.innerText = ' Post of current user ';
+                    a.href = `./post.html?id=${user.id}`
+                    a.innerText = ' Post of current user';
                     userPostsBtn.appendChild(a);
 
-    }} );
+    }
+     ));
 
